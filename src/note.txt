@@ -1,0 +1,19 @@
+NETFLIX WORK
+---------------------------------
+put API file in src..
+
+create request.js file... for API call and data accessing using axios
+- Install axios     npm i axios
+- create state using base url
+
+- create request in baseUrl.js
+-----------------------
+- create instance.. instance is a variable to hold base url...
+- use create() from axios..
+- for such common url... use instance in axios.. export it
+- where this base url is required.. there you can call this instance
+
+NOTE
+-----
+netflix items comes as row.. create Row.js component for that...
+here we dont you bootstrap... so Row can be used as name for file.. otherwise.. bootstrap component name should not be used as file name
