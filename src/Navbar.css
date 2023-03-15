@@ -1,0 +1,17 @@
+.nav{
+position: fixed;
+top: 0px;
+padding: 20px;
+z-index: 1;
+/* z-index is to give priority.. if the logo goes inside(back of any poster...) */ 
+width: 100%;
+}
+
+.logo{
+    width: 200px;
+    height: 100px;
+}
+
+.nav_black{
+background-color: black;
+}
